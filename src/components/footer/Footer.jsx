@@ -9,7 +9,7 @@ export default function Footer() {
                     <div className="mb-6 md:mb-0">
                         <Link to="/" className="flex items-center">
                             <img
-                                src="https://alexharkness.com/wp-content/uploads/2020/06/logo-2.png"
+                                src="/images/logo.png"
                                 className="mr-3 h-16"
                                 alt="Logo"
                             />
@@ -17,44 +17,70 @@ export default function Footer() {
                     </div>
                     <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
                         <div>
-                            <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase">Resources</h2>
-                            <ul className="text-gray-500 font-medium">
-                                <li className="mb-4">
-                                    <Link to="/" className="hover:underline">
-                                        Home
-                                    </Link>
-                                </li>
-                                <li>
+                             
+                            <ul className="text-gray-500 text-sm">
+                                <li >
                                     <Link to="/about" className="hover:underline">
-                                        About
+                                        About Us
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link to="#" className="hover:underline">
+                                        Sitemap
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link to="#" className="hover:underline">
+                                        Credits
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link to="#" className="hover:underline">
+                                        Help Center
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link to="#" className="hover:underline">
+                                        Community Guidelines
                                     </Link>
                                 </li>
                             </ul>
                         </div>
                         <div>
-                            <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase">Follow us</h2>
-                            <ul className="text-gray-500 font-medium">
-                                <li className="mb-4">
-                                    <a
-                                        href="https://github.com/somtrip"
-                                        className="hover:underline"
-                                        target="_blank"
-                                        rel="noreferrer"
-                                    >
-                                        Github
-                                    </a>
+                            
+                            <ul className="text-gray-500 text-sm">
+                                
+                                <li>
+                                    <Link to="/" className="hover:underline">
+                                        Accessbility
+                                    </Link>
                                 </li>
                                 <li>
                                     <Link to="/" className="hover:underline">
-                                        Discord
+                                        Mobile
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link to="/" className="hover:underline">
+                                        Marketing 
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link to="/" className="hover:underline">
+                                        Advertising
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link to="/" className="hover:underline">
+                                        Report Issue
                                     </Link>
                                 </li>
                             </ul>
                         </div>
                         <div>
-                            <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase">Legal</h2>
-                            <ul className="text-gray-500 font-medium">
-                                <li className="mb-4">
+                            
+                            <ul className="text-gray-500 text-sm">
+                                <li>
                                     <Link to="#" className="hover:underline">
                                         Privacy Policy
                                     </Link>
@@ -64,6 +90,11 @@ export default function Footer() {
                                         Terms &amp; Conditions
                                     </Link>
                                 </li>
+                                <li>
+                                    <Link to="#" className="hover:underline">
+                                        Trust &amp; Safety
+                                    </Link>
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -71,12 +102,13 @@ export default function Footer() {
                 <hr className="my-6 border-gray-200 sm:mx-auto lg:my-8" />
                 <div className="sm:flex sm:items-center sm:justify-between">
                     <span className="text-sm text-gray-500 sm:text-center">
-                        © 2024
-                        <a href="https://twitter.com/code_nath/" className="hover:underline">
-                            somtripathi
-                        </a>
-                        . All Rights Reserved.
+                    All trademarks are the property of their respective owners
+                    <br />
+                    All rights reserved © 2024 FormEase
+                    
                     </span>
+                    
+                    
                     <div className="flex mt-4 space-x-5 sm:justify-center sm:mt-0">
                         <Link to="#" className="text-gray-500 hover:text-gray-900">
                             <svg
